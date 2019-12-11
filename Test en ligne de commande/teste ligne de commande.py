@@ -27,6 +27,4 @@ fichier=open("teste.json","w")
 dictstr=str(dict)
 dictstr=dictstr.replace("'",'"')
 fichier.write(dictstr)
-fichier.close
-        
-        
+fichier.close        
