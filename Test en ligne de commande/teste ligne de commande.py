@@ -1,5 +1,6 @@
-new_note=input("entre un note")
-new_sur=input("sur")
+import Moyenne_arithmétique
+new_note=input("entre une note:")
+new_sur=input("sur:")
 dict={
     "francais":{
         "gen":0,
@@ -15,3 +16,9 @@ dictstr=str(dict)
 dictstr=dictstr.replace("'",'"')
 print(dictstr)
 fichier.write(dictstr)
+fichier.close
+def convertir(dict,new_note,new_sur):
+    if (new_sur != 20):
+        dif = 20-new_sur
+        somme = new_note+dif
+
