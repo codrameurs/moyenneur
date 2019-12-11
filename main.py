@@ -14,6 +14,8 @@ fenetre = init()
 
 title=Label(fenetre,text="Bienvenue sur le moyeneur")
 title.place(x=300,y=0)
+phrase=Label(fenetre,text="entrez votre note:")
+phrase.place(x=300,y=30)
 enter=Button(fenetre,text="entrer",command=valider)
 enter.place(x=300,y=100)
 entry=Entry(fenetre)
