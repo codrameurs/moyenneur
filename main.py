@@ -1,5 +1,5 @@
 from tkinter import *
-
+from moyenneur_module import *
 def init():
     fenetre = Tk()
     fenetre.title("Moyeneur")
