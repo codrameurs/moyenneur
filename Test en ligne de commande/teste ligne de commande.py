@@ -17,10 +17,11 @@ def convertir(new_note,new_sur):
         produit = new_note*20
         new_note=produit/new_sur
         new_sur=20
-        print("t'as note sur 20 est de %d/%d"%(new_note,new_sur))
-        return new_note
+        print("t'as note de %d/%d"%(new_note,new_sur))
+        return
 if new_sur != 20:
     convertir(new_note,new_sur)
+print("t'as une note de %d/%d"%(new_note,new_sur))
 dict["francais"]["notes"][0][0]=new_note
 dict["francais"]["notes"][0][1]=new_sur
 fichier=open("teste.json","w")
